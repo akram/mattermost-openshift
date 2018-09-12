@@ -82,7 +82,7 @@ objects:
           - name: MM_DB_HOST
             valueFrom:
               configMapKeyRef:
-                key: db_dport
+                key: db_port
                 name: mattermost
           livenessProbe:
             failureThreshold: 3
